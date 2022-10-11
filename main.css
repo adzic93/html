@@ -1,0 +1,211 @@
+body {
+margin: 0px;
+padding: 0px;
+
+}
+
+.header {
+   border-bottom: 2px solid #dc0101;
+
+}
+
+.page {
+   
+
+}
+
+.footer {
+    
+
+}
+
+.column { 
+    /*border: 1px solid black;*/
+    width: 1000px;
+    margin: 0px auto;
+
+}
+
+.page .column { 
+    height: 100vh; 
+}
+
+#logo-i-social {
+    display: flex;
+
+}
+
+#logo-holder {
+    flex-grow: 1;
+
+}
+
+#logo-holder img {
+    width: 170px;
+    height: 45px;
+}
+
+#social-holder {
+    flex-grow: 1;
+    text-align: right;
+
+}
+
+#social-holder a {
+text-decoration: none;
+}
+
+#social-holder a img {
+    margin: 5px;
+    width: 24px;
+    height: 24px;
+}
+
+#main-menu {
+    display: flex;
+}
+
+#main-menu a {
+    flex-grow: 1;
+    text-align: center;
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+    color: #dc0101;
+    transition: 400ms;
+}
+
+#main-menu a:hover,
+#main-menu a.active {
+    background: #dc0101;
+    color: #ffffff;
+}
+
+#pocetna {
+    text-align: center;
+    color: #ffffff;
+    background: url(assets/img/pozadine/pozadina.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#pocetna h1 {
+    font-size: 48pt;
+    margin-top: 0px;
+    padding-top: calc(50vh - 250px);
+}
+
+.dark-box {
+    background-color: #22222280;
+    border: 1px solid #ffffff;
+    font-size: 24pt;
+    padding: 40px;
+}
+
+#usluge {
+    background: url(assets/img/pozadine/usluge.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#karijera {
+    background: url(assets/img/pozadine/karijera.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.align-center {
+	text-align: center;
+}
+
+.krugovi {
+	display: flex;
+	margin: 30px 0;
+}
+
+.krug-holder {
+	flex-grow: 1;
+	text-align: center;
+}
+
+.krug {
+	background: #dc0101;
+	color: #ffffff;
+	font-size: 48px;
+	font-weight: bold;
+	padding: 25%;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%
+}
+
+.oznaka {
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 10px;
+	
+}
+
+.tehnologije {
+	margin: 30px 0;
+	display: flex;
+}
+
+.tehnologija {
+	flex-grow: 1;
+	text-align: center;
+	
+}
+
+.tehnologija img {
+	width: 48px;
+	height: 48px;
+}
+
+.tehnologija p {
+	font-weight: bold;
+}
+
+#usluge {
+    color: #ffffff;
+}
+
+#usluge h2 {
+    padding: 40px;
+}
+
+.service-row {
+    display: flex;
+    margin-bottom:  40px;
+    justify-content: space-between;
+}
+
+.service-row > div {
+    text-align: center;
+    position: relative;
+    width: 300px;
+    height: 150px;
+    border: 1px solid #fff;
+}
+
+.service-row > div > img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.service-row > div > p {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    padding: 10px;
+    background-color: #ffffffc0;
+    margin-bottom: 0px;
+    color: #000;
+    font-weight: bold;
+    border-top: 1px solid #fff;
+}
