@@ -1,4 +1,4 @@
-body {
+body { /*30:50 u videu*/
 margin: 0px;
 padding: 0px;
 
@@ -19,15 +19,15 @@ padding: 0px;
 
 }
 
-.column { 
+.column { /*24:50 u videu*/
     /*border: 1px solid black;*/
     width: 1000px;
     margin: 0px auto;
 
 }
 
-.page .column { 
-    height: 100vh; 
+.page .column { /*33:15 u videu*/
+    height: 100vh; /*38:00 u videu*/
 }
 
 #logo-i-social {
